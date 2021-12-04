@@ -23,14 +23,20 @@ export const SignUpForm = ({ onSubmit, signUpErrors }) => (
   >
     {({ handleSubmit }) => (
       <View>
+        <TouchableOpacity onPress={handleSubmit}>
+          <Text fontSize="4xl" textAlign="center" mb="xl" >{$t('auth.signUp')}</Text>
+        </TouchableOpacity>
+
         <Field
           name="first_name"
           component={TextInputField}
           placeholder={$t('auth.enterFirstName')}
         />
+
         <Field name="last_name" placeholder={$t('auth.enterLastName')}>
           {({ field, form }) => <Input {...form} placeholder="Фамилия" {...inputStyle} />}
         </Field>
+        
         <Field name="email" component={TextInputField} placeholder={$t('auth.enterEmail')} />
         <ErrorText error={!!signUpErrors.email} message={signUpErrors.email} />
         <Field
@@ -45,9 +51,6 @@ export const SignUpForm = ({ onSubmit, signUpErrors }) => (
           secureTextEntry
           placeholder={$t('auth.confirmPassword')}
         />
-        <TouchableOpacity onPress={handleSubmit}>
-          <Text>{$t('auth.signUp')}</Text>
-        </TouchableOpacity>
       </View>
     )}
   </Formik>
@@ -59,6 +62,19 @@ SignUpForm.propTypes = {
 };
 
 export const inputStyle = {
-  rounded: '2xl',
-  bg: '#000'
+  rounded: 22,
+  mb: 20,
+  fontSize: 14,
+  h: 43,
 };
+
+export const buttonSubmitStyle = {
+  rounded: 22,
+  mt: 10,
+  fontSize: 14,
+  h: 43,
+  color: "#fff",
+  bg: "#000",
+  w:169,
+  alignSelf: 'center'
+}

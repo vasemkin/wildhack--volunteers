@@ -9,6 +9,7 @@ import $t from 'i18n';
 import { SignInForm } from '../../components/auth/SignInForm';
 import { login, facebookLogin, googleLogin } from '../../store/auth';
 import { signInErrorSelector } from '../../store/error';
+import { buttonSubmitStyle } from '../../components/auth/SignUpForm';
 
 const SignInScreen = ({ navigation }) => {
   const dispatch = useDispatch();
@@ -32,8 +33,8 @@ const SignInScreen = ({ navigation }) => {
       <KeyboardAwareScrollView enableOnAndroid>
         <SignInForm onSubmit={handleLogin} signInError={signInError} />
 
-        <Button onPress={goToSignUp}>
-          <Text>Отправить</Text>
+        <Button onPress={goToSignUp} {...buttonSubmitStyle}>
+          Отправить
         </Button>
       </KeyboardAwareScrollView>
     </View>
@@ -54,6 +55,6 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: '#fff',
     flex: 1,
-    padding:36
+    padding:36,
   }
 });

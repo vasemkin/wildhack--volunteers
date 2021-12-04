@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableOpacity, View } from 'react-native';
-import { Formik } from 'formik';
+import { Formik,Field } from 'formik';
 import PropTypes from 'prop-types';
 
 import { TextInputField } from '../shared/FormFields';
@@ -8,6 +8,7 @@ import { signInValidationRules } from '../../validation/auth';
 import $t from 'i18n';
 import ErrorText from '../shared/Text/ErrorText';
 import { Input, Text } from 'react-native-magnus';
+import { inputStyle } from './SignUpForm';
 
 export const SignInForm = ({ onSubmit, signInError }) => (
   <Formik
@@ -20,20 +21,16 @@ export const SignInForm = ({ onSubmit, signInError }) => (
         <TouchableOpacity onPress={handleSubmit}>
           <Text fontSize="4xl" textAlign="center" mb="xl">{$t('auth.signIn')}</Text>
         </TouchableOpacity>
-        <Input
-          mb="xl"
-          rounded="2xl" 
-          name="email"
-          component={TextInputField}
-          placeholder={$t('auth.enterEmail')}
-        />
-        <Input
-          rounded="2xl"
-          name="password"
-          component={TextInputField}
-          secureTextEntry
-          placeholder={$t('auth.enterPassword')}
-        />
+
+        <Field name="email" component={TextInputField}>
+          {({ form }) => <Input {...form} placeholder={$t('auth.enterEmail')} {...inputStyle} />}
+        </Field>
+
+        <Field name="password" component={TextInputField}>
+          {({ form }) => <Input {...form}  placeholder={$t('auth.enterPassword')} {...inputStyle} secureTextEntry/>}
+        </Field>
+   
+    
         <ErrorText
           error={!!signInError}
           message={$t('auth.invalidCredentials')}
