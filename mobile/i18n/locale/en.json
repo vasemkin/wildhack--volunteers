@@ -8,13 +8,13 @@
     "offline": "Please check your Internet connection"
   },
   "auth": {
-    "signUp": "Регистрация",
+    "signUp": "Создать аккаунт",
     "signIn": "Вход",
     "enterFirstName": "Имя",
     "enterLastName": "Фамилия",
     "enterEmail": "Электронная почта",
     "enterPassword": "Пароль",
-    "confirmPassword": "Confirm your password",
+    "confirmPassword": "Подтвердите пароль",
     "passwordsMustMatch": "Passwords must match",
     "changePass": "Change password",
     "haveAccountLogIn": "Already have an account? Log in!",
