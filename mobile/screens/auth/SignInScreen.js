@@ -3,13 +3,14 @@ import { StyleSheet, View } from 'react-native';
 import PropTypes from 'prop-types';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import { useDispatch, useSelector } from 'react-redux';
-import { Button, Text } from 'react-native-magnus';
+import { Button, Text, Div } from 'react-native-magnus';
 import $t from 'i18n';
 
 import { SignInForm } from '../../components/auth/SignInForm';
 import { login, facebookLogin, googleLogin } from '../../store/auth';
 import { signInErrorSelector } from '../../store/error';
 import { buttonSubmitStyle } from '../../components/auth/SignUpForm';
+import SwitchTab from '../../components/auth/SwitchTab';
 
 const SignInScreen = ({ navigation }) => {
   const dispatch = useDispatch();
@@ -33,9 +34,15 @@ const SignInScreen = ({ navigation }) => {
       <KeyboardAwareScrollView enableOnAndroid>
         <SignInForm onSubmit={handleLogin} signInError={signInError} />
 
-        <Button onPress={goToSignUp} {...buttonSubmitStyle}>
+        <Button {...buttonSubmitStyle}>
           Отправить
         </Button>
+
+        <SwitchTab
+          prompt={'Еще нет аккаунта?'}
+          call={'Регистрация'}
+          action={goToSignUp}
+        />
       </KeyboardAwareScrollView>
     </View>
   );
