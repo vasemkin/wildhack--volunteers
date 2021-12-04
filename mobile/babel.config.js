@@ -16,11 +16,15 @@ module.exports = function bpe(api) {
     }
   ];
 
-  const plugins = [moduleResolver];
+  const plugins = [moduleResolver, '@babel/plugin-syntax-numeric-separator'];
 
   const envDevelopment = {
     presets: presets,
-    plugins: ['@babel/transform-react-jsx-source', moduleResolver]
+    plugins: [
+      '@babel/transform-react-jsx-source',
+      moduleResolver,
+      '@babel/plugin-syntax-numeric-separator'
+    ]
   };
 
   if (api.env(['development', 'test'])) {

@@ -8,6 +8,7 @@ import Sentry from 'sentry-expo';
 import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
 import { InAppNotificationProvider } from 'react-native-in-app-notification';
+import { ThemeProvider } from 'react-native-magnus';
 
 import store from './store';
 import NavigationService from './services/NavigationService';
@@ -46,18 +47,20 @@ export default class App extends React.Component {
     } else {
       return (
         <Provider store={store}>
-          <InAppNotificationProvider height={150}>
-            <NetworkInterceptor>
-              <View style={styles.container}>
-                {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
-                <AppNavigator
-                  ref={navigatorRef => {
-                    NavigationService.setTopLevelNavigator(navigatorRef);
-                  }}
-                />
-              </View>
-            </NetworkInterceptor>
-          </InAppNotificationProvider>
+          <ThemeProvider>
+            <InAppNotificationProvider height={150}>
+              <NetworkInterceptor>
+                <View style={styles.container}>
+                  {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
+                  <AppNavigator
+                    ref={navigatorRef => {
+                      NavigationService.setTopLevelNavigator(navigatorRef);
+                    }}
+                  />
+                </View>
+              </NetworkInterceptor>
+            </InAppNotificationProvider>
+          </ThemeProvider>
         </Provider>
       );
     }
