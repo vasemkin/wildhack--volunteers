@@ -1,8 +1,9 @@
 import React, { useCallback } from 'react';
-import { StyleSheet, Button, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import PropTypes from 'prop-types';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import { useDispatch, useSelector } from 'react-redux';
+import { Button, Text } from 'react-native-magnus';
 import $t from 'i18n';
 
 import { SignInForm } from '../../components/auth/SignInForm';
@@ -31,10 +32,18 @@ const SignInScreen = ({ navigation }) => {
       <KeyboardAwareScrollView enableOnAndroid>
         <SignInForm onSubmit={handleLogin} signInError={signInError} />
 
-        <Button title="Sign in with Facebook!" onPress={handleFacebookLogin} />
-        <Button title="Sign in with Google!" onPress={handleGoogleLogin} />
-        <Button title="Sign up!" onPress={goToSignUp} />
-        <Button title="Forgot password" onPress={goToForgotPassword} />
+        <Button onPress={handleFacebookLogin}>
+          <Text>Forgot password</Text>
+        </Button>
+        <Button onPress={handleGoogleLogin}>
+          <Text>Sign in with Google!</Text>
+        </Button>
+        <Button onPress={goToSignUp}>
+          <Text>Sign up!</Text>
+        </Button>
+        <Button onPress={goToForgotPassword}>
+          <Text>Forgot password</Text>
+        </Button>
       </KeyboardAwareScrollView>
     </View>
   );
