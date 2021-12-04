@@ -7,6 +7,7 @@ import { TextInputField } from '../shared/FormFields';
 import { signUpValidationRules } from '../../validation/auth';
 import $t from 'i18n';
 import ErrorText from '../shared/Text/ErrorText';
+import { Input } from 'react-native-magnus';
 
 export const SignUpForm = ({ onSubmit, signUpErrors }) => (
   <Formik
@@ -27,7 +28,9 @@ export const SignUpForm = ({ onSubmit, signUpErrors }) => (
           component={TextInputField}
           placeholder={$t('auth.enterFirstName')}
         />
-        <Field name="last_name" component={TextInputField} placeholder={$t('auth.enterLastName')} />
+        <Field name="last_name" placeholder={$t('auth.enterLastName')}>
+          {({ field, form }) => <Input {...form} placeholder="Фамилия" {...inputStyle} />}
+        </Field>
         <Field name="email" component={TextInputField} placeholder={$t('auth.enterEmail')} />
         <ErrorText error={!!signUpErrors.email} message={signUpErrors.email} />
         <Field
@@ -53,4 +56,9 @@ export const SignUpForm = ({ onSubmit, signUpErrors }) => (
 SignUpForm.propTypes = {
   onSubmit: PropTypes.func,
   signUpErrors: PropTypes.object
+};
+
+export const inputStyle = {
+  rounded: '2xl',
+  bg: '#000'
 };
