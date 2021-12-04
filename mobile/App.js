@@ -1,5 +1,13 @@
 import React from 'react';
-import { Platform, StatusBar, StyleSheet, View, LogBox, Text, TextInput } from 'react-native';
+import {
+  Platform,
+  StatusBar,
+  StyleSheet,
+  View,
+  LogBox,
+  Text,
+  TextInput
+} from 'react-native';
 import AppLoading from 'expo-app-loading';
 import { Asset } from 'expo-asset';
 import * as Font from 'expo-font';

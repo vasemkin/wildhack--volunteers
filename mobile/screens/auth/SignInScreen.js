@@ -32,17 +32,8 @@ const SignInScreen = ({ navigation }) => {
       <KeyboardAwareScrollView enableOnAndroid>
         <SignInForm onSubmit={handleLogin} signInError={signInError} />
 
-        <Button onPress={handleFacebookLogin}>
-          <Text>Forgot password</Text>
-        </Button>
-        <Button onPress={handleGoogleLogin}>
-          <Text>Sign in with Google!</Text>
-        </Button>
         <Button onPress={goToSignUp}>
-          <Text>Sign up!</Text>
-        </Button>
-        <Button onPress={goToForgotPassword}>
-          <Text>Forgot password</Text>
+          <Text>Отправить</Text>
         </Button>
       </KeyboardAwareScrollView>
     </View>
@@ -62,6 +53,7 @@ export default SignInScreen;
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#fff',
-    flex: 1
+    flex: 1,
+    padding:36
   }
 });
