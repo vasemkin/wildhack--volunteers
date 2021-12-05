@@ -1,0 +1,35 @@
+{
+  "id": "d2deeeee-76f7-46c5-b2f2-ec888046ec3b",
+  "name": "Work on terrytory",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Доброволец обязан выполнять работы, оговоренные в соглашении. При нарушении условий договора ФГБУ «Кроноцкий государственный заповедник» в одностороннем порядке расторгает договор, и доброволец самостоятельно организует и оплачивает своё возвращение с территории.\n* Руководитель кордона старается распределить нагрузку на волонтеров таким образом, чтобы у каждого была возможность побывать на экскурсиях."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

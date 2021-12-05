@@ -1,0 +1,53 @@
+[
+  {
+    "id": "ab05d647-cfd5-4d1e-a62d-a08fdf2c0f1f",
+    "data": [
+      {
+        "text": "есть ли на кордоне туалет, ванная или душ или баня?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "336b7d45-300a-4fa8-b8f0-f01a1d2b7b41",
+    "data": [
+      {
+        "text": "условия проживания на ",
+        "userDefined": false
+      },
+      {
+        "text": "кордоне",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "2e498db0-c12b-4de5-a2d6-b2fd9c57bad8",
+    "data": [
+      {
+        "text": "Какая инфраструктура имеется на кордонах? Есть ",
+        "userDefined": false
+      },
+      {
+        "text": "ли на",
+        "userDefined": false
+      },
+      {
+        "text": " кордонах условия для стирки белья?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "id": "6fe1cdad-669a-4bb5-84c1-4605b27d1d85",
+  "parentId": "134c8871-4939-4f92-b19a-77ba8571489c",
+  "rootParentId": "134c8871-4939-4f92-b19a-77ba8571489c",
+  "name": "How to become a volonter - fallback",
+  "contexts": [
+    "Howtobecomeavolonter-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Howtobecomeavolonter.Howtobecomeavolonter-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "К сожалению я не смог распознать твой ответ(",
+          "replies": [
+            "Попробовать ещё раз"
+          ],
+          "textToSpeech": "",
+          "lang": "ru",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "К сожалению я не смог распознать твой ответ("
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

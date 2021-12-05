@@ -1,0 +1,71 @@
+{
+  "id": "e80f08c7-04b1-47c6-b137-c01008b95a07",
+  "name": "Info Cordons Root",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "InfoCordonsRoot-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "У нас есть несколько кордонов, про какой ты хочешь узнать?\n\n- Озерный\n- Травяной\n- Долина гейзеров\n- Узон\n- Истоки и Аэродром\n- Кроноки и Семячик"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Ты можешь воспользоваться списком быстрых ответов",
+          "replies": [
+            "Озерный",
+            "Травяной",
+            "Долина гейзеров",
+            "Узон",
+            "Истоки и Аэродром",
+            "Кроноки и Семячик",
+            "Отмена"
+          ],
+          "textToSpeech": "",
+          "lang": "ru",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "У нас есть несколько кордонов, про какой ты хочешь узнать?\n\n- Озерный\n- Травяной\n- Долина гейзеров\n- Узон\n- Истоки и Аэродром\n- Кроноки и Семячик"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

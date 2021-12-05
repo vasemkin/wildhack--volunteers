@@ -1,0 +1,28 @@
+[
+  {
+    "id": "32a31336-6ceb-4a2c-8206-b85dd9ca0db1",
+    "data": [
+      {
+        "text": "График работы на территории",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "414a1075-0d0a-4cf1-ac76-459806e560ab",
+    "data": [
+      {
+        "text": "График работы волонтера есть ли выходные ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

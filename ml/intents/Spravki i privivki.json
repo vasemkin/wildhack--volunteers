@@ -1,0 +1,35 @@
+{
+  "id": "fdd640c5-c750-4d8d-88ea-daa6b4bfba4f",
+  "name": "Spravki i privivki",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "При наличии, просьба предоставить справки о прохождении медицинской комиссии, если проходили в течение последнего года, или предоставить расписку о состоянии здоровья (ограничения, хронические заболевания)\nЗаповедные территории – зоны высокой вулканической и сейсмической активности, вокруг множество диких животных, а штатных врачей на кордонах нет. Поэтому мы приветствуем медицинские справки, а также просим вас самостоятельно оформить страхование жизни и здоровья, также необходимо иметь при себе отрицательный ПЦР тест на Covid-19.\nНе забудьте взять личную аптечку!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "43bd302f-65cd-4f6d-8016-a7bcc21eafb4",
+    "data": [
+      {
+        "text": "можете посоветовать ",
+        "userDefined": false
+      },
+      {
+        "text": "отели",
+        "userDefined": false
+      },
+      {
+        "text": " или ",
+        "userDefined": false
+      },
+      {
+        "text": "хостелы",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "38a28e98-b911-45ce-854a-57d24a3af5f4",
+    "data": [
+      {
+        "text": "Какие есть ",
+        "userDefined": false
+      },
+      {
+        "text": "отели",
+        "userDefined": false
+      },
+      {
+        "text": " и ",
+        "userDefined": false
+      },
+      {
+        "text": "хостелы",
+        "userDefined": false
+      },
+      {
+        "text": " для временного проживания?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "ru",
+    "updated": 0
+  }
+]

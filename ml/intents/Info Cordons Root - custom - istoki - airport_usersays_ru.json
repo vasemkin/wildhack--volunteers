@@ -1,0 +1,62 @@
+[
+  {
+    "id": "f335802a-ec42-46bd-b9fb-d585df2d0d60",
+    "data": [
+      {
+        "text": "аэродром",
+        "userDefined": false
+      },
+      {
+        "text": " и истоки",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "ad38f6bb-4453-4b5f-a82a-54405aac6232",
+    "data": [
+      {
+        "text": "истоки и ",
+        "userDefined": false
+      },
+      {
+        "text": "аэродром",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "c72c2ad7-324e-4102-ada9-a48ad4d9b78e",
+    "data": [
+      {
+        "text": "аэродром",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "e6b10438-a902-44fe-94bb-0c1051e9ea61",
+    "data": [
+      {
+        "text": "истоки",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "332d3c8d-7c33-474e-a416-677c7357e965",
+    "data": [
+      {
+        "text": "Расскажите пожалуйста про ",
+        "userDefined": false
+      },
+      {
+        "text": "кордоны",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "f543631e-82e8-4c04-8af3-614723ffc414",
+    "data": [
+      {
+        "text": "Какие есть ",
+        "userDefined": false
+      },
+      {
+        "text": "кордоны",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

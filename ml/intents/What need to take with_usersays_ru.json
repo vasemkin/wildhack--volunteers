@@ -1,0 +1,74 @@
+[
+  {
+    "id": "46ab474c-7e62-4644-95f7-27aeb707b07e",
+    "data": [
+      {
+        "text": "Какое снаряжение брать с собой?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "cb21e96b-f292-47ea-b186-b73cca94a3dd",
+    "data": [
+      {
+        "text": "Какую ",
+        "userDefined": false
+      },
+      {
+        "text": "обувь",
+        "userDefined": false
+      },
+      {
+        "text": " брать с собой?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "93791cf4-1954-4122-9ad8-f3f38b2589ce",
+    "data": [
+      {
+        "text": "Какой",
+        "userDefined": false
+      },
+      {
+        "text": " список туристического инвентаря необходимо взять и что предоставляет из снаряжения ",
+        "userDefined": false
+      },
+      {
+        "text": "заповедник",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "92513e97-6156-4804-8932-777b37a41f16",
+    "data": [
+      {
+        "text": "Какую одежду брать с собой?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

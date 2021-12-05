@@ -1,0 +1,39 @@
+{
+  "id": "2db68a8f-47e8-4710-a5e5-f1899a362d59",
+  "parentId": "e80f08c7-04b1-47c6-b137-c01008b95a07",
+  "rootParentId": "e80f08c7-04b1-47c6-b137-c01008b95a07",
+  "name": "Info Cordons Root - fallback",
+  "auto": true,
+  "contexts": [
+    "InfoCordonsRoot-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "InfoCordonsRoot.InfoCordonsRoot-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Прости, я не смог понять про какой ты кордон хочешь узнать, потвори пожалуйста свой вопрос"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

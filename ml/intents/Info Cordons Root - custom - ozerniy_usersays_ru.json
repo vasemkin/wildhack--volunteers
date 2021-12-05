@@ -1,0 +1,28 @@
+[
+  {
+    "id": "9d9e570c-dd56-4682-aeb1-54a4a215a739",
+    "data": [
+      {
+        "text": "озёрный",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "8bb615f5-d2a6-4c4b-bc55-8fae25f6ca4a",
+    "data": [
+      {
+        "text": "озерный",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

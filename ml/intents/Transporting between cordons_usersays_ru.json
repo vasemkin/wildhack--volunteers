@@ -1,0 +1,59 @@
+[
+  {
+    "id": "84cf6290-4653-4254-942e-d6b6f270aa61",
+    "data": [
+      {
+        "text": "как добраться до ",
+        "userDefined": false
+      },
+      {
+        "text": "кордона",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "1186a2c0-0cb5-4669-93ea-aee5935428a4",
+    "data": [
+      {
+        "text": "дата",
+        "userDefined": false
+      },
+      {
+        "text": " вылета на кордон",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "cd5c452c-2930-4971-9015-abf27c1bffa7",
+    "data": [
+      {
+        "text": "Где и как можно узнать точную ",
+        "userDefined": false
+      },
+      {
+        "text": "дату",
+        "meta": "@sys.language",
+        "alias": "language",
+        "userDefined": false
+      },
+      {
+        "text": " вылета на кордон?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

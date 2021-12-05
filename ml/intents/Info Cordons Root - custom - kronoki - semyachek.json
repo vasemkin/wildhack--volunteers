@@ -1,0 +1,61 @@
+{
+  "id": "539347ac-2a95-43be-8f05-d7421bfb7449",
+  "parentId": "e80f08c7-04b1-47c6-b137-c01008b95a07",
+  "rootParentId": "e80f08c7-04b1-47c6-b137-c01008b95a07",
+  "name": "Info Cordons Root - custom - kronoki - semyachek",
+  "auto": true,
+  "contexts": [
+    "InfoCordonsRoot-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "InfoCordonsRoot.InfoCordonsRoot-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Так как туристы практически не посещают данные кордоны, они используются лишь в природоохранных и научных целях. \n\nЗдесь проживают сотрудники заповедника, которым нужна помощь в хозяйственных и строительных работах. \n\nИнфраструктура и хозяйственное наполнение кордонов подходит для длительного проживания. Есть жилые инспекторские дома, санузлы."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "",
+          "replies": [
+            "Спасибо"
+          ],
+          "textToSpeech": "",
+          "lang": "ru",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Так как туристы практически не посещают данные кордоны, они используются лишь в природоохранных и научных целях. \n\nЗдесь проживают сотрудники заповедника, которым нужна помощь в хозяйственных и строительных работах. \n\nИнфраструктура и хозяйственное наполнение кордонов подходит для длительного проживания. Есть жилые инспекторские дома, санузлы."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "f92b0816-5138-41e9-b064-411213a36ad3",
+    "data": [
+      {
+        "text": "кроноки и семячек",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "9ce2a957-3224-4188-802a-5246f9b86433",
+    "data": [
+      {
+        "text": "семячик",
+        "userDefined": false
+      },
+      {
+        "text": " и кроноки",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "06c6d1c0-013b-40f6-a6ae-e10100c0f4d0",
+    "data": [
+      {
+        "text": "семячик",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "22025e4e-5820-41c9-a6d0-19d4e4c9c595",
+    "data": [
+      {
+        "text": "кроноки",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

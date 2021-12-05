@@ -1,0 +1,35 @@
+{
+  "id": "b2da9140-50c5-4c29-8bbe-7902e03a4702",
+  "name": "Hostels and motels",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Список и контакты отелей, г.Елизово: \n\nМини-отель \"АМТО\" ул. Ленина, 32, Елизово, Камчатский край, 684300, 8 (924) 585-35-35, \nстоимость от 1500 рублей\nhttps://yandex.ru/MAPS/-/CCUurRWi8C \n\nВила Хостел, Уральская ул., дом 2, Камчатский край, 684007, 8 (963) 833-22-32, \nстоимость от 2000 рублей\nhttps://yandex.ru/maps/-/CCUurRWB3D \n\nХостел Камчатский Стиль, ул. Беринга, 26, Елизово, Камчатский край, 684000, 8 (951) 290-67-42, \nстоимость от 3000 рублей\nhttps://yandex.ru/maps/-/CCUurRWjXB \n\nГостиница \"Арт Отель\" ул. Виталия Кручины, 3, Елизово, Камчатский край, 684000, 8 (415) 317-14-43, \nстоимость от 6500 рублей\nhttps://yandex.ru/maps/-/CCUurRWztD \n\nYu Hotel, ул. Виталия Кручины, д. 38 А, Камчатский край, 684000 8 (914) 021-27-27, \nстоимость от 8000 рублей\nhttps://yandex.ru/maps/-/CCUurRWkoB \n\nForest Hotel, Геофизическая ул., 9а, 3-й этаж, Елизово, Камчатский край, 684000, 8 (924) 698-55-55, \nстоимость от 3000 рублей\nhttps://yandex.ru/maps/-/CCUurRWotD \n\nАэро Отель ул. Магистральная, 44В, Елизово, Камчатский край, 684010, 8 (963) 833-44-00, \nстоимость от 4500 рублей\nhttps://yandex.ru/maps/-/CCUurRWHCB"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

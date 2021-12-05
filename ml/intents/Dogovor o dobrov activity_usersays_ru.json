@@ -1,0 +1,41 @@
+[
+  {
+    "id": "91bd24c5-cb6a-4328-a505-e0f6872f09aa",
+    "data": [
+      {
+        "text": "где заключить договор о добровольческой деятельности",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "0c1887f4-b139-4902-a23a-ff44e0aa0823",
+    "data": [
+      {
+        "text": "где заключить договор о волонтерской деятельности",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "11804700-0df1-4df5-b5da-9b766f67038e",
+    "data": [
+      {
+        "text": "Куда необходимо подъехать для заключения договора и что нужно иметь\n при себе?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "2d373417-4ac8-4a2a-a5a7-c588213f5694",
+  "name": "Zdorovie i vrachi",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Заповедные территории – зоны высокой вулканической и сейсмической активности, вокруг множество диких животных, а штатных врачей на кордонах нет. Поэтому мы приветствуем медицинские справки, а также просим вас самостоятельно оформить страхование жизни и здоровья, также необходимо иметь при себе отрицательный ПЦР тест на Covid-19.\nНе забудьте взять личную аптечку!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
