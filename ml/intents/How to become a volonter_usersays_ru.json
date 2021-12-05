@@ -1,0 +1,74 @@
+[
+  {
+    "id": "c3896d17-5e04-4aa7-9272-e8c0d9fca665",
+    "data": [
+      {
+        "text": "как ",
+        "userDefined": false
+      },
+      {
+        "text": "стать",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "добровольцем",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "62e62f37-cf4b-43de-825e-4564c7b6f565",
+    "data": [
+      {
+        "text": "волонтерство в заповеднике",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "a1732d59-e531-4e3b-b83a-1636ec5958c4",
+    "data": [
+      {
+        "text": "что нужно для становления волонтером",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "281b66b8-d22f-4d48-b393-948a3348a7f8",
+    "data": [
+      {
+        "text": "Как ",
+        "userDefined": false
+      },
+      {
+        "text": "стать",
+        "userDefined": false
+      },
+      {
+        "text": " волонтером",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

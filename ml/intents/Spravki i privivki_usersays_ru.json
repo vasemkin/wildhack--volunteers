@@ -1,0 +1,28 @@
+[
+  {
+    "id": "3e621ef0-02bb-4fdf-be3c-41984e558daa",
+    "data": [
+      {
+        "text": "Какие медицинские справки и прививки надо предоставить?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "1d5d4b49-324b-4517-b05e-e058598fa278",
+    "data": [
+      {
+        "text": "Требования о прививках, справках?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

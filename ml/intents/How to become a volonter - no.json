@@ -1,0 +1,51 @@
+{
+  "id": "11345d88-4bab-4f46-a4d3-f20137496566",
+  "parentId": "134c8871-4939-4f92-b19a-77ba8571489c",
+  "rootParentId": "134c8871-4939-4f92-b19a-77ba8571489c",
+  "name": "How to become a volonter - no",
+  "auto": true,
+  "contexts": [
+    "Howtobecomeavolonter-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Howtobecomeavolonter.Howtobecomeavolonter-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Хорошо, но я всё ещё могу попытаться ответить на другие твои вопросы",
+          "replies": [
+            "Спасибо"
+          ],
+          "textToSpeech": "",
+          "lang": "ru",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Хорошо, но я всё ещё могу попытаться ответить на другие твои вопросы"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

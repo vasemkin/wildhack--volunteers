@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1f2ebdb1-152e-478b-9288-af922f5a45ab",
+    "data": [
+      {
+        "text": "Где лучше остановиться на время до\n  отправки, сколько это стоит?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "235ed780-4979-469b-b683-41d1d7c93b1e",
+    "data": [
+      {
+        "text": "Предоставляет ли ",
+        "userDefined": false
+      },
+      {
+        "text": "заповедник жилье",
+        "userDefined": false
+      },
+      {
+        "text": " для волонтера на время\n пребывания до отправки на территорию?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "9df7f9ee-6724-464a-8659-fb86a80c0f23",
+    "data": [
+      {
+        "text": "Предоставляет ли ",
+        "userDefined": false
+      },
+      {
+        "text": "заповедник жилье",
+        "userDefined": false
+      },
+      {
+        "text": " для волонтера на время\n пребывания до отправки на территорию? ",
+        "userDefined": false
+      },
+      {
+        "text": "Где",
+        "userDefined": false
+      },
+      {
+        "text": " лучше остановиться на время до\n отправки, сколько это стоит?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "e2b4ca18-e4cf-426f-9540-b26f309bfd93",
+    "data": [
+      {
+        "text": "covid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "3da7a480-d239-4b91-97cb-3b98f17f5f1d",
+    "data": [
+      {
+        "text": "коронавирус",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "af159ea7-a5b8-4137-881d-c4affdaa5d08",
+    "data": [
+      {
+        "text": "qr код",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "c9d2e248-0069-4bd3-b3dd-d75fd21e1c51",
+    "data": [
+      {
+        "text": "пцр тест",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "id": "367803ed-f7b4-4623-a1bf-719bce86f57d",
+  "parentId": "e80f08c7-04b1-47c6-b137-c01008b95a07",
+  "rootParentId": "e80f08c7-04b1-47c6-b137-c01008b95a07",
+  "name": "Info Cordons Root - custom - thx",
+  "auto": true,
+  "contexts": [
+    "InfoCordonsRoot-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "InfoCordonsRoot.InfoCordonsRoot-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Всегда рад тебе помочь)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

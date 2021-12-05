@@ -1,0 +1,35 @@
+{
+  "id": "0ce019a8-f79a-42f7-954d-4c0a4dfde8b8",
+  "name": "Chto po eat",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Основные продукты питания предоставляютя волонтеру. Заповедник обеспечивает пайком каждого волонтера. Вам необходимо будет только докупить для себя фрукты,овощи, кондитерские изделия, молочные продукты по своему вкусовому предпочтению."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

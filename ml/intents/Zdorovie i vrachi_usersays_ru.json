@@ -1,0 +1,57 @@
+[
+  {
+    "id": "520c7c6c-85d0-4f95-b1c0-3af0418600e1",
+    "data": [
+      {
+        "text": "Нужна ли личная аптечка?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "32bda6dc-caa7-4540-aff6-dddbb1cf4b76",
+    "data": [
+      {
+        "text": "Нужно ли брать с собой лекарства?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "77e9f84d-166f-404c-ae85-dc74f0e9e1e1",
+    "data": [
+      {
+        "text": "Есть ",
+        "userDefined": false
+      },
+      {
+        "text": "ли на",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "кардоне",
+        "userDefined": false
+      },
+      {
+        "text": " врач?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "a528e9d8-ce2f-41d1-9e0c-0854db09c66b",
+  "name": "Energy and internet",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "На всех кордонах есть электрогенераторы и солнечные батареи, то есть, возможность заряжать гаджеты у вас будет.\nСотовой связи нет нигде. На многих кордонах утром и вечером есть интернет (очень медленный, но весточку родным отправить возможно)."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

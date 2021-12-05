@@ -1,0 +1,132 @@
+[
+  {
+    "id": "dfe138d4-4e4c-4505-8224-384e409d2e54",
+    "data": [
+      {
+        "text": "просто забудь об этом",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "bd8d02a1-fc20-4d10-ae5a-2c4f6cfbb1fb",
+    "data": [
+      {
+        "text": "отмени это",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "70cfb01d-4a90-4758-adf3-d2ef62ec6e77",
+    "data": [
+      {
+        "text": "скрыть",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "00bc4b5b-97cc-44b1-8c06-d7bef4870dce",
+    "data": [
+      {
+        "text": "стоп",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "e8b3fab1-2fe2-4f71-815d-4ac09315bdd0",
+    "data": [
+      {
+        "text": "пропустить",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "69263dcf-0901-424d-b559-136604672659",
+    "data": [
+      {
+        "text": "прекрати",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "2f3301e1-9abc-4a7d-97cd-2ad5c591318d",
+    "data": [
+      {
+        "text": "забудь об этом",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "ff7ba7f7-c6ac-47a1-8eef-f05f6ecde2d7",
+    "data": [
+      {
+        "text": "отмена",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "daf67959-a3ec-4ae1-8118-60104f623375",
+    "data": [
+      {
+        "text": "не имеет значения",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "7b2b54fe-3883-42db-a953-4500b825145a",
+    "data": [
+      {
+        "text": "ничего не делай",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

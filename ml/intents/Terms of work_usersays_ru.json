@@ -1,0 +1,49 @@
+[
+  {
+    "id": "cf666f51-4e0e-45a1-8af7-11dadc8d62c9",
+    "data": [
+      {
+        "text": "какой",
+        "userDefined": false
+      },
+      {
+        "text": " график добровольческих работ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "d83cd59a-69ca-4318-bcc0-cfd3e9d76376",
+    "data": [
+      {
+        "text": "какой",
+        "userDefined": false
+      },
+      {
+        "text": " график волонтерских работ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  },
+  {
+    "id": "52093c82-a041-4467-b2b1-1212c6ad4ddd",
+    "data": [
+      {
+        "text": "Какие сроки выполнения волонтерских работ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ru",
+    "updated": 0
+  }
+]

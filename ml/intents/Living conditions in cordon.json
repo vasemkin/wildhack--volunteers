@@ -1,0 +1,35 @@
+{
+  "id": "ebe4770c-f036-44a2-af5a-736e7283d8d3",
+  "name": "Living conditions in cordon",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Волонтёры, работающие на кордонах, размещаются в домиках или модулях (сборные сезонные конструкции), спят в спальниках, либо на раскладушках с постельным бельём. Туалеты расположены вне домиков. Есть баня и\\или душ, возможность стирать и сушить личные вещи. Волонтёры, участвующие в работах по прочистке троп, иногда ночуют в палатках или в инспекторских домах на полевых стационарах (условия минимальные)."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

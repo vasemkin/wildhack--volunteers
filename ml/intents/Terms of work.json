@@ -1,0 +1,35 @@
+{
+  "id": "21ecedc2-4a28-4458-8ff6-0eb5bef73873",
+  "name": "Terms of work",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "Мы ставим Вас в график волонтерских работ на сезон согласно срокам, указанным в договоре о добровольческой деятельности.         \nМинимальный срок работы на охраняемых территориях-3 недели.\nПо мере формирования, график на текущий сезон размещается на сайте www.kronoki.ru в разделе \nВОЛОНТЕРСТВО НА ТЕРРИТОРИЯХ. (https://kronoki.ru/ru/volunteerism/programs/)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

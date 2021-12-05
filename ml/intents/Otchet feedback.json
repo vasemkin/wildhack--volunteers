@@ -1,0 +1,35 @@
+{
+  "id": "ffd7d97b-3f94-49c7-9920-2730ca31bcff",
+  "name": "Otchet feedback",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ru",
+          "speech": [
+            "По возвращении с территорий волонтеру необходимо написать отзыв и отчет добровольца (приложение №4, №5 к договору).\nВыдается личная волонтерская книжка (при отсутствии), с отметкой о дате и сведениях о деятельности волонтера."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
