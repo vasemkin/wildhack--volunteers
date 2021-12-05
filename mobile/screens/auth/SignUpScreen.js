@@ -9,8 +9,10 @@ import { SignUpForm } from '../../components/auth/SignUpForm';
 import { signUp } from '../../store/auth';
 import { setSignUpErrors, signUpErrorsSelector } from '../../store/error';
 import { buttonSubmitStyle } from '../../components/auth/SignUpForm';
+import SwitchTab from '../../components/auth/SwitchTab';
 
-const SignUpScreen = () => {
+
+const SignUpScreen = ({navigation}) => {
   const dispatch = useDispatch();
 
   const handleSignUp = useCallback(data => dispatch(signUp(data)));
@@ -18,6 +20,9 @@ const SignUpScreen = () => {
 
   const signUpErrors = useSelector(signUpErrorsSelector());
 
+  const goToSignIn = () => {
+    navigation.navigate('SignIn');
+  };
   useEffect(() => {
     return () => handleSetSignUpErrors({});
   }, []);
@@ -29,6 +34,12 @@ const SignUpScreen = () => {
         <Button {...buttonSubmitStyle}>
           Отправить
         </Button>
+        <SwitchTab
+          prompt={'Уже зарегистрированы?'}
+          call={'Вход'}
+          action={goToSignIn}
+          mt="20%"
+        />
       </KeyboardAwareScrollView>
     </View>
   );
@@ -43,6 +54,6 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: '#fff',
     flex: 1,
-    marginTop: 60
+    padding:36,
   }
 });

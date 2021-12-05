@@ -1,9 +1,9 @@
 import React from "react"
 import { Div, Text, Button } from "react-native-magnus"
 
-const SwitchTab = ({prompt, call, action}) => {
+const SwitchTab = ({prompt, call, action,...props}) => {
     return(
-        <Div {...rowStyle}>
+        <Div {...rowStyle} {...props}>
           <Text {...textStyle}>{prompt}</Text>
           <Button
             onPress={action}
@@ -28,7 +28,7 @@ export const textStyle = {
     justifyContent: 'center',
     alignItems: 'center',
     alignContent: 'center',
-    mt: '100%'
+    mt: '70%'
   }
   
   export const emptyButtonStyle = {

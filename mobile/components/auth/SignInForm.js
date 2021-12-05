@@ -18,9 +18,7 @@ export const SignInForm = ({ onSubmit, signInError }) => (
   >
     {({ handleSubmit }) => (
       <View>
-        <TouchableOpacity onPress={handleSubmit}>
           <Text fontSize="4xl" textAlign="center" mb="xl">{$t('auth.signIn')}</Text>
-        </TouchableOpacity>
 
         <Field name="email" component={TextInputField}>
           {({ form }) => <Input {...form} placeholder={$t('auth.enterEmail')} {...inputStyle} />}

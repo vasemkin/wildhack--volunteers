@@ -8,7 +8,7 @@
     "offline": "Please check your Internet connection"
   },
   "auth": {
-    "signUp": "Создать аккаунт",
+    "signUp": "Регистрация",
     "signIn": "Вход",
     "enterFirstName": "Имя",
     "enterLastName": "Фамилия",

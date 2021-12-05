@@ -4,9 +4,7 @@ import {
   Platform,
   ScrollView,
   StyleSheet,
-  Text,
   View,
-  Button,
   Modal,
   SafeAreaView
 } from 'react-native';
@@ -15,6 +13,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { addHeaderLeftNavigator } from '../../helpers';
 import $t from 'i18n';
 import { activeUserSelector, logout } from '../../store/auth';
+import { Button, Text, Div } from 'react-native-magnus';
+
 
 const HomeScreen = () => {
   const dispatch = useDispatch();
@@ -36,39 +36,42 @@ const HomeScreen = () => {
         contentContainerStyle={styles.contentContainer}
       >
         <View style={styles.welcomeContainer}>
-          <Text>{$t('helloWorld')}</Text>
-          {user && <Text>{user.email}</Text>}
-          <Image
-            source={
-              __DEV__
-                ? require('../../assets/images/robot-dev.png')
-                : require('../../assets/images/robot-prod.png')
-            }
-            style={styles.welcomeImage}
-          />
+        
+          <Div {...profileStyle}> 
+            <Image
+                source={
+                  __DEV__
+                    ? require('../../assets/images/Anton.png')
+                    : require('../../assets/images/Anton.png')
+                }
+                style={styles.welcomeImage}
+              />
+              <Text fontSize="4xl" textAlign="center" mb="lg">Антон Сидоров</Text>
+              <Text>Волонтер</Text>
+          </Div>
+            
+          <Div row {...infoStyle}>
+
+            <Div >
+              <Text fontSize="xl" fontWeight="bold" textAlign="center">4</Text>
+              <Text>Пройдено</Text>
+            </Div>
+
+            <Div>
+              <Text fontSize="xl" fontWeight="bold" textAlign="center">3</Text>
+              <Text>Осталось</Text>
+            </Div>
+
+            <Div>
+              <Text  fontSize="xl" fontWeight="bold" textAlign="center">7</Text>
+              <Text>Всего</Text>
+            </Div>
+            
+          </Div>
+          
+
         </View>
 
-        <Button title="Actually, sign me out :)" onPress={_signOutAsync} />
-
-        <Button onPress={() => setModalVisible(true)} title="Show Modal" />
-
-        <Modal
-          animationType="slide"
-          transparent={false}
-          visible={modalVisible}
-          onRequestClose={() => alert('Modal has been closed.')}
-        >
-          <SafeAreaView style={styles.container}>
-            <View>
-              <Text>{$t('helloWorld')}</Text>
-
-              <Button
-                onPress={() => setModalVisible(!modalVisible)}
-                title="Hide Modal"
-              />
-            </View>
-          </SafeAreaView>
-        </Modal>
       </ScrollView>
 
       <View style={styles.tabBarInfoContainer} />
@@ -78,7 +81,7 @@ const HomeScreen = () => {
 
 HomeScreen.navigationOptions = ({ navigation }) => {
   const headerLeftNav = addHeaderLeftNavigator(navigation);
-  return { ...headerLeftNav, title: 'Home' };
+  return { ...headerLeftNav, title: 'Профиль' };
 };
 
 export default HomeScreen;
@@ -86,7 +89,9 @@ export default HomeScreen;
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#fff',
-    flex: 1
+    flex: 1,
+    padding: 36,
+
   },
   contentContainer: {
     paddingTop: 30
@@ -122,6 +127,19 @@ const styles = StyleSheet.create({
     marginLeft: -10,
     marginTop: 3,
     resizeMode: 'contain',
-    width: 100
+    width: 100,
+    borderRadius:20,
+    marginBottom: 40,
   }
 });
+
+export const profileStyle = {
+  w: '100%',
+  flex: 1,
+  alignItems: 'center',
+  mb: 30
+}
+export const infoStyle = {
+  w:'100%',
+  justifyContent: 'space-between'
+}

@@ -23,9 +23,7 @@ export const SignUpForm = ({ onSubmit, signUpErrors }) => (
   >
     {({ handleSubmit }) => (
       <View>
-        <TouchableOpacity onPress={handleSubmit}>
-          <Text fontSize="4xl" textAlign="center" mb="xl">{$t('auth.signUp')}</Text>
-        </TouchableOpacity>
+          <Text fontSize="4xl" textAlign="center" mb="xl">Создать аккаунт</Text>
    
         <Field name="first_name" 
         >
@@ -41,7 +39,7 @@ export const SignUpForm = ({ onSubmit, signUpErrors }) => (
           {({ field, form }) => <Input {...form} secureTextEntry placeholder={$t('auth.enterPassword')} {...inputStyle} />}
         </Field>
       
-        <Checkbox flexDir="row-reverse" value={1} prefix={<Text textAlign="right">Согласен с правилами сервиса</Text>} />
+        <Checkbox {...checkboxStyle} flexDir="row-reverse" value={1} prefix={<Text textAlign="right">Согласен с правилами сервиса</Text>} />
 
     
       </View>
@@ -59,7 +57,11 @@ export const inputStyle = {
   mb: 20,
   fontSize: 14,
   h: 43,
-};
+}
+
+export const checkboxStyle = {
+  mb : 10,
+}
 
 export const buttonSubmitStyle = {
   rounded: 22,
